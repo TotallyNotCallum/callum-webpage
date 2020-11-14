@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
+
+@font-face {
+    font-family: Notera;
+    src: url(fonts/notera.woff);
+  }
+
+h1 {
+    font-family: Notera;
+    font-weight: 500;
+    color: black;
+    font-size: 80px;
+}
+
+p {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 20px
+}
+
+.text-container {
+    max-width: 400px;
+}
+
+.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, .uk-heading-2xlarge, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, h2, h3, h4, h5, h6 {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+
+/* Animation for heart */
+
+@-moz-keyframes heartThrob {
+    10% {
+     transform:scale(1.15)
+    }
+    20% {
+     transform:scale(1)
+    }
+    40% {
+     transform:scale(1.15)
+    }
+    60% {
+     transform:scale(1)
+    }
+   }
+   @-webkit-keyframes heartThrob {
+    10% {
+     transform:scale(1.15)
+    }
+    20% {
+     transform:scale(1)
+    }
+    40% {
+     transform:scale(1.15)
+    }
+    60% {
+     transform:scale(1)
+    }
+   }
+   @-o-keyframes heartThrob {
+    10% {
+     transform:scale(1.15)
+    }
+    20% {
+     transform:scale(1)
+    }
+    40% {
+     transform:scale(1.15)
+    }
+    60% {
+     transform:scale(1)
+    }
+   }
+   @keyframes heartThrob {
+    10% {
+     transform:scale(1.15)
+    }
+    20% {
+     transform:scale(1)
+    }
+    40% {
+     transform:scale(1.15)
+    }
+    60% {
+     transform:scale(1)
+    }
+   }
+  
